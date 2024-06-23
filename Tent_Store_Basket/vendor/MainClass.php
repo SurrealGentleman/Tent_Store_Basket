@@ -4,7 +4,7 @@
 		protected $conn;
 		function __construct()
 		{
-			$this->conn = new PDO("mysql:host=localhost; dbname=lab5", "root", "root");
+			$this->conn = new PDO("mysql:host=хост; dbname=названиеБД", "логин", "пароль");
 		}
 
 		function print_category ()
