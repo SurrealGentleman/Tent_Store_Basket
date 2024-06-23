@@ -20,7 +20,7 @@
 	</div>
 	<div>
 		<?php
-			$conn = mysqli_connect("localhost", "root", "root", "lab5");
+			$conn = mysqli_connect("хост", "логин", "пароль", "названиеБД");
 			$result = mysqli_query($conn, "SELECT ID, Название, Производитель, Категория, Цена FROM goods");
 			while ($elem = mysqli_fetch_row($result)) {
 			    echo "<div>$elem[1]<br>$elem[2]<br>$elem[3]<br>$elem[4] руб.<input class='checkBox' type='checkbox' id='$elem[0]' onchange='zapros($elem[0])'></div><div id='div_for_num$elem[0]'></div><br><div id=error_for_product$elem[0]></div>";
