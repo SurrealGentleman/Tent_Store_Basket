@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+header h1{
+	margin: 0 0 15px 15px;
+}
+
+header menu ul{
+	display: flex;
+	list-style-type: none;
+}
+
+header menu ul li{
+	margin-right: 10px;
+}
+
+header menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+main{
+	display: flex;
+	justify-content: space-between;
+}
+
+main section h3{
+	padding: 15px 0 0 15px;
+	width: 90%;
+}
+
+main section section{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main section section div{
+	margin: 10px 25px 10px 15px;
+    
+}
+
+p.name{
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+p.manufacturer{
+	font-size: 11pt;
+}
+
+p.price{
+	font-size: 11pt;
+}
+
+p.description{
+	font-size: 10pt;
+	border-top: 1px solid black;
+}
+
+input[type=button], button {
+    background-color: white;
+    border: none;
+}
+
+input[type=button]{
+	padding: 6px;
+	font-size: 12pt;
+}
+
+button{
+	margin-right: 40px;
+	padding-bottom: 4px;
+	font-size: 12pt;
+}
+
+#cart{
+	margin: 10px 25px 10px 15px;
+	list-style-type: none;
+}
+
+#cart li{
+	margin-bottom: 10px;
+}
+
+.error{
+	color: red;
+	font-size: 12pt;
+}
