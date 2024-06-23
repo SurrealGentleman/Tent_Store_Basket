@@ -1,5 +1,5 @@
 <?
-	$conn = mysqli_connect("localhost", "root", "root", "lab5");
+	$conn = mysqli_connect("хост", "логин", "пароль", "названиеБД");
 
 	if (isset($_GET['idP'])) {
 		$idP = $_GET['idP'];
